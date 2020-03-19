@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8"/>
+        <link rel ="stylesheet" href ="css\storyPage.css">
+        <script src="homePage.js"></script>
+        <title>Story page</title>
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <div class="topnav">
+            <a href="homePage.html">Home page</a>
+        </div>
+
+        <!-- Headers -->
+        <header class = "header">'A trip to Bulgaria'<hr/></header>
+
+        <!-- Text and image -->
+        <div class="images">
+            <img src="Images\sofia.jpg" alt="Image" height="320" width="520"/><img src="Images\VelikoTarnovo.jpg" alt="Image" height="320" width="520"/><br>
+        </div>
+        <div class="paragraph">
+            <p>
+                Suppose that you are going on a trip to one of the following destinations: Sofia, Bulgaria and Veliko Tarnovo, Bulgaria.<br>
+                Choose one of the destinations, both located in Bulgaria, and follow the trip guide.<br>
+                You will be asked to choose between two options showing you what is the next place to visit.<br>
+                Click on one of the buttons showing the name of the city and the country to start your trip.<br>
+            </p>
+        </div>
+        
+        <!-- Button -->
+        <div class="wrapper">
+            <input type="button" class="button" onClick="startButton('Sofia.html')" value='Sofia, Bulgaria'>
+            <input type="button" class="button" onClick="startButton('VelikoTarnovo.html')" value='Veliko Tarnovo, Bulgaria'>
+        </div>
+    </body>
+</html>

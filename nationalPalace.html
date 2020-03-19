@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8"/>
+        <link rel ="stylesheet" href ="css\nextStopPages.css">
+        <script src="homePage.js"></script>
+        <title>Sofia, Bulgaria</title>
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <div class="topnav">
+            <a href="storyPage.html">Story page</a>
+            <a href="homePage.html">Home page</a>
+        </div>
+
+        <!-- Headers -->
+        <header class = "header">National Palace of Culture<hr/></header>
+
+        <!-- Image -->
+        <div class="image">
+            <img src="Images\nationalPalace.jpg" alt="Image" height="230" width="450"/>
+        </div>
+
+        <!-- Text -->
+        <div class="paragraph">
+            <p>The National Palace of Culture is the largest multifunctional congress, conference, convention and exhibition center in Southeastern Europe. It is in a hexagon shape and is made of a mass of concrete and glass. Nowadays it is mainly functioning as a concert hall. It also hosts exhibition and trade fairs. In front of it there is a park with plenty of cafes and benches surrounded with a big and large fountain and a lot of green areas. Next to it is located the ‘Lovers bridge’. Its name is given by the citizens because a lot of couples in love enjoy sitting on the bridge and watch the panorama of Vitosha Mountain and the beautiful sunsets. Click on the button below to view the next location we are going to visit.<br></p>
+            <p class = "instructions">Click on one of the buttons below to start your journey</p>
+        </div> 
+        
+        <!-- Button -->
+        <div class="wrapper">
+            <input type="button" class="button" onclick="myFunction()" value='Next stop...'>
+        </div>
+        
+        <!-- Image -->
+        <div id="nextStop">
+            <div class="images">
+                <image class="secondImage" img src="Images\theatre.jpg" alt="Image" height="230" width="450"/>
+            </div>
+
+            <!-- Image -->
+            <div class="paragraph">
+                <p>Next comes the Ivan Vazov National Theatre. It is a grand neoclassical structure that remains the last word in Bulgarian culture to this day. The building is an iconic sight for Sofia, appearing on banknotes and is most famous for its drama productions. One of the most spectacles are played there by one of the most famous actors in the country.<br></p>
+                <p>And there are even more things to do in Sofia and places to see…Start again if you want to explore them</p>
+            </div> 
+
+            <!-- Button -->
+            <div class="wrapper">
+                <input type="button" class="button" onClick="startButton('storyPage.html')" value='START'>
+            </div>
+        </div>
+    </body>
+</html>

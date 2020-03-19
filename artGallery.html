@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8"/>
+        <link rel ="stylesheet" href ="css\nextStopPages.css">
+        <script src="homePage.js"></script>
+        <title>Sofia, Bulgaria</title>
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <div class="topnav">
+            <a href="storyPage.html">Story page</a>
+            <a href="homePage.html">Home page</a>
+        </div>
+
+        <!-- Headers -->
+        <header class = "header">National Art Gallery<hr/></header>
+
+        <!-- Image -->
+        <div class="image">
+            <img src="Images\artGallery.jpg" alt="Image" height="230" width="450"/>
+        </div>
+
+        <!-- Text -->
+        <div class="paragraph">
+            <p>Next stop is the National Gallery for Foreign Arts in Sofia which is the only one of its kind in the Balkans. It is unique with the character of its collection – the art of distant lands, of exotic tribes and nations, of old and new ages coexists with the modern European tendencies. It has a unique collection of Christian sculpture of the Indian province of Goa. Let’s see what other museums are there in the territory of Sofia. <br></p>
+            <p class = "instructions">Click on one of the buttons below to start your journey</p>
+        </div> 
+        
+        <!-- Button -->
+        <div class="wrapper">
+            <input type="button" class="button" onclick="myFunction()" value='Next stop...'>
+        </div>
+        
+        <!-- Image -->
+        <div id="nextStop">
+            <div class="images">
+                <image class="secondImage" img src="Images\historyMuseum.jpg" alt="Image" height="230" width="450"/>
+            </div>
+
+            <!-- Image -->
+            <div class="paragraph">
+                <p>The National history museum features 650 000 objects connected to archeology, fine art and history. The building looks more like a communist palace than a museum as it is a former governmental residence. You can explore a rich collection of stone columns and antique and medieval monuments in the museum’s courtyard. The 500 years of rule by the Ottoman Empire are covered in the first two floors. On the third one, you can see the hall of traditional clothes. <br></p>
+                <p>And there are even more things to do in Sofia and places to see…Start again if you want to explore them</p>
+            </div> 
+
+            <!-- Button -->
+            <div class="wrapper">
+                <input type="button" class="button" onClick="startButton('storyPage.html')" value='START'>
+            </div>
+        </div>
+    </body>
+</html>

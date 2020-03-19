@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8"/>
+        <link rel ="stylesheet" href ="css\nextStopPages.css">
+        <script src="homePage.js"></script>
+        <title>Sofia, Bulgaria</title>
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <div class="topnav">
+            <a href="storyPage.html">Story page</a>
+            <a href="homePage.html">Home page</a>
+        </div>
+
+        <!-- Headers -->
+        <header class = "header">Visit the oldest building in modern Sofia<hr/></header>
+
+        <!-- Image -->
+        <div class="image">
+            <img src="Images\oldestBuilding.jpg" alt="Image" height="230" width="450"/>
+        </div>
+
+        <!-- Text -->
+        <div class="paragraph">
+            <p>Your next stop in the city center is St George Rotunda which is located in the heart of ancient Serdica (old name of Sofia). It is a wonder that this building has survived unscathed for such an amount of time. Outside you can see the flagstones of a Roman street and other remnants of Ancient Serdica. Click on the button below to see where is our next stop. <br></p>
+            <p class = "instructions">Click on one of the buttons below to start your journey</p>
+        </div> 
+        
+        <!-- Button -->
+        <div class="wrapper">
+            <input type="button" class="button" onclick="myFunction()" value='Next stop...'>
+        </div>
+        
+        <!-- Image -->
+        <div id="nextStop">
+            <div class="images">
+                <image class="secondImage" img src="Images\serdica.jpg" alt="Image" height="230" width="450"/>
+            </div>
+
+            <!-- Image -->
+            <div class="paragraph">
+                <p>Our next stop is Serdica Amphitheatre which is Sofia’s own Roman amphitheatre. It was one of the largest in the Roman empire, holding gladiator fights and battles of men against wild beasts. Later it became integrated into the design of the Arena di Serdica hotel but visitors off the street can look down at the ruins. <br></p>
+                <p>And there are even more things to do in Sofia and places to see…Start again if you want to explore them</p>
+            </div> 
+
+            <!-- Button -->
+            <div class="wrapper">
+                <input type="button" class="button" onClick="startButton('storyPage.html')" value='START'>
+            </div>
+        </div>
+    </body>
+</html>
