@@ -9,44 +9,41 @@
 
     <body>
         <!-- Navigation -->
-        <div class="topnav">
-            <a href="storyPage.html">Story page</a>
-            <a href="homePage.html">Home page</a>
-        </div>
+        <nav id="topnav">
+            <a href="storyPage.html" class="navigation">Story page</a>
+            <a href="homePage.html" class="navigation">Home page</a>
+        </nav>
 
         <!-- Headers -->
         <header class = "header">What about going outside?<hr/></header>
 
         <!-- Image -->
-        <div class="image">
-            <img src="ImagesVTarnovo\stambolovBridge.jpg" alt="Image" height="250" width="400"/>
-        </div>
+        <image class="image" img src="ImagesVTarnovo\stambolovBridge.jpg" alt="Image" height="250" width="400"/>
         
         <!-- Text -->
-        <div class="paragraph">
+        <section class="paragraph">
             <p>The Stambolov Bridge is the beautiful bridge over the Yantra River which brings you to a beautiful viewpoint where you can take a photo of the iconic hillside of Veliko Tarnovo that you can see on every postcard around the city. Built in 1892, the bridge is made of steel and concrete and was one of the first steel bridges to be built in the Balkans. If you follow the bridge, you will reach the Asen’s monument where you can admire even more views of the city. You can then sit down in the nearby café for a Shumensko beer which is made in the city. <br></p>
-            <p class = "instructions">Click on the button below to see where is our next stop.</p>
-        </div> 
+            <p id = "instructions">Click on the button below to see where is our next stop.</p>
+        </section> 
         
         <!-- Button -->
-        <div class="wrapper">
+        <div id="wrapper">
             <input type="button" class="button" onclick="myFunction()" value='Next stop...'>
         </div>
         
         <!-- Image -->
         <div id="nextStop">
-            <div class="images">
-                <image class="secondImage" img src="ImagesVTarnovo\miniatures.jpg" alt="Image" height="300" width="280"/>
-            </div>
+            
+            <image class="secondImage" img src="ImagesVTarnovo\miniatures.jpg" alt="Image" height="300" width="280"/>
 
             <!-- Image -->
-            <div class="paragraph">
+            <section class="paragraph">
                 <p>It is the first of its kind park-museum in Bulgaria with fully realistic miniatures of landmarks from all over the country. It is located near Tsarevets fortress, under the Balduin Tower. There are 80 miniatures of significant historical and natural landmarks from Bulgaria.  Among them are the most famous ones like Tsarevets Fortress in Veliko Tarnovo, St. Alexander Nevski Cathedral, Among them are Tsarevets Fortress and Assen's Dynasty Monument in Veliko Tarnovo, Alexander Nevsky Cathedral and  Ivan Vazov National Theatre in Sofia,  the Ancient Theater in Plovdiv, Baba Vida Fortress in Vidin and others.<br></p>
                 <p>And there are even more things to do in Sofia and places to see…Start again if you want to explore them</p>
-            </div> 
+            </section> 
 
             <!-- Button -->
-            <div class="wrapper">
+            <div id="wrapper">
                 <input type="button" class="button" onClick="startButton('storyPage.html')" value='START'>
             </div>
         </div>

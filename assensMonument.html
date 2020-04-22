@@ -9,44 +9,41 @@
 
     <body>
         <!-- Navigation -->
-        <div class="topnav">
-            <a href="storyPage.html">Story page</a>
-            <a href="homePage.html">Home page</a>
-        </div>
+        <nav id="topnav">
+            <a href="storyPage.html" class="navigation">Story page</a>
+            <a href="homePage.html" class="navigation">Home page</a>
+        </nav>
 
         <!-- Headers -->
         <header class = "header">Assens Monument<hr/></header>
 
         <!-- Image -->
-        <div class="image">
-            <img src="ImagesVTarnovo\assensMonument.jpg" alt="Image" height="280" width="250"/>
-        </div>
+        <image class="image" img src="ImagesVTarnovo\assensMonument.jpg" alt="Image" height="280" width="250"/>
 
         <!-- Text -->
-        <div class="paragraph">
+        <section class="paragraph">
             <p>The monument can be seen from almost everywhere in the city. It features the Bulgarian Tsars - Ivan Assen, Theodor-Petar, Kaloyan, and Assen. The statue is a memorial of the tsars for their contributions to the city. Local students occupy the surrounding areas using the scenic setting as inspiration. From the monument you’ll enjoy beautiful views of the old town. You can access the monument on foot via the Stambolov Bridge built over Yantra River. Nowadays it is a pedestrian bridge used by the tourists for taking photos of the city.<br></p>
-            <p class = "instructions">Click on the button below to see where is our next stop.</p>
-        </div> 
+            <p id="instructions">Click on the button below to see where is our next stop.</p>
+        </section> 
         
         <!-- Button -->
-        <div class="wrapper">
+        <div id="wrapper">
             <input type="button" class="button" onclick="myFunction()" value='Next stop...'>
         </div>
         
         <!-- Image -->
         <div id="nextStop">
-            <div class="images">
-                <image class="secondImage" img src="ImagesVTarnovo\trapezitsa.jpg" alt="Image" height="250" width="450"/>
-            </div>
-
+            
+            <image class="secondImage" img src="ImagesVTarnovo\trapezitsa.jpg" alt="Image" height="250" width="450"/>
+            
             <!-- Image -->
-            <div class="paragraph">
+            <section class="paragraph">
                 <p>Trapezitsa fortress is the second most important one in Veliko Tarnovo. It can be reached from almost every side but the entrance to the hill is at the northern part, which has always offered the easiest access to the hill. The glorious Trapezitsa was probably abandoned intentionally and in an organized matter after the city fell under Ottoman rule. Despite being buried for so long, Trapezitsa stayed in the memories of Bulgarians. So just after the Liberation of 1878 was created a public entity named to discover and excavate historical places like Trapezitsa.<br></p>
                 <p>And there are even more things to do in Sofia and places to see…Start again if you want to explore them</p>
-            </div> 
+            </section> 
 
             <!-- Button -->
-            <div class="wrapper">
+            <div id="wrapper">
                 <input type="button" class="button" onClick="startButton('storyPage.html')" value='START'>
             </div>
         </div>

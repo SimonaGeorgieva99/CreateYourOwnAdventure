@@ -9,28 +9,29 @@
 
     <body>
         <!-- Navigation -->
-        <div class="topnav">
-            <a href="homePage.html">Home page</a>
-        </div>
+        <nav id="topnav">
+            <a href="homePage.html" class="navigation">Home page</a>
+        </nav>
 
-        <!-- Headers -->
+        <!-- Header -->
         <header class = "header">'A trip to Bulgaria'<hr/></header>
 
-        <!-- Text and image -->
-        <div class="images">
-            <img src="ImagesSofia\sofia.jpg" alt="Image" height="320" width="520"/><img src="ImagesVTarnovo\VelikoTarnovo.jpg" alt="Image" height="320" width="520"/><br>
+        <!-- Images -->
+        <div id="images">
+            <img src="ImagesSofia\sofia.jpg" alt="Image" height="320" width="520"/>
+            <img src="ImagesVTarnovo\VelikoTarnovo.jpg" alt="Image" height="320" width="520"/><br>
         </div>
-        <div class="paragraph">
-            <p>
-                Suppose that you are going on a trip to one of the following destinations: Sofia, Bulgaria and Veliko Tarnovo, Bulgaria.<br>
+
+        <!-- Text -->
+        <section class="paragraph">
+            <p>Suppose that you are going on a trip to one of the following destinations: Sofia, Bulgaria and Veliko Tarnovo, Bulgaria.<br>
                 Choose one of the destinations, both located in Bulgaria, and follow the trip guide.<br>
                 You will be asked to choose between two options showing you what is the next place to visit.<br>
-                Click on one of the buttons showing the name of the city and the country to start your trip.<br>
-            </p>
-        </div>
+                Click on one of the buttons showing the name of the city and the country to start your trip.<br></p>
+        </section>
         
-        <!-- Button -->
-        <div class="wrapper">
+        <!-- Buttons -->
+        <div id="wrapper">
             <input type="button" class="button" onClick="startButton('Sofia.html')" value='Sofia, Bulgaria'>
             <input type="button" class="button" onClick="startButton('VelikoTarnovo.html')" value='Veliko Tarnovo, Bulgaria'>
         </div>

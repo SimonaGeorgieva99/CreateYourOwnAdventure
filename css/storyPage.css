@@ -7,17 +7,13 @@ html {
     text-align: center;
 }
 
-.images {
+#images {
     text-align: center;
 }
 
-img {
-  /* float: right; */
+.image {
   padding-right: 70px;
   display: inline-block;
-  /* margin-left: auto; */
-  /* margin-right: 100pxZZ; */
-
 } 
 
 .paragraph {
@@ -27,7 +23,7 @@ img {
     padding-bottom: 150px;
 }
 
-.instructions {
+#instructions {
     font-size: 30px;
     text-align: center;
     padding-left: 20px;
@@ -48,19 +44,18 @@ img {
 }
 
 /* moving the button in the middle */
-.wrapper {
+#wrapper {
     text-align: center;
 }
 
 /* style of the navigation bar */
-.topnav {
+#topnav {
     overflow: hidden;
     background-color: #f8e4e4;
-    /* background-image: linear-gradient(to bottom right, #f5e1e4, #f1dfdf); */
 }
   
 /* style of the content of the navigation bar*/
-.topnav a {
+.navigation {
     float: right;
     color: black;
     font-size: 3em;
@@ -70,8 +65,3 @@ img {
     font-family: cursive;
     font-size: 2.0em;
 }
-  
-/* .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-} */

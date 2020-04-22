@@ -9,44 +9,41 @@
 
     <body>
         <!-- Navigation -->
-        <div class="topnav">
-            <a href="storyPage.html">Story page</a>
-            <a href="homePage.html">Home page</a>
-        </div>
+        <nav id="topnav">
+            <a href="storyPage.html" class="navigation">Story page</a>
+            <a href="homePage.html" class="navigation">Home page</a>
+        </nav>
 
         <!-- Headers -->
         <header class = "header">Museums<hr/></header>
 
         <!-- Image -->
-        <div class="image">
-            <img src="ImagesVTarnovo\hadjiNikoliMuseum.jpg" alt="Image" height="220" width="450"/>
-        </div>
+        <image class="image" img src="ImagesVTarnovo\hadjiNikoliMuseum.jpg" alt="Image" height="220" width="450"/>
         
         <!-- Text -->
-        <div class="paragraph">
+        <section class="paragraph">
             <p>Another museum which is worth seeing is the Hadji Nikoli Inn Museum which is situated inside the 19th century home of wealthy local tradesman, Hadji Nikoli. It is a beautiful example of the Bulgarian Revival architecture and the only surviving inn from that period.<br></p>
-            <p class = "instructions">Click on the button below to see where is our next stop.</p>
-        </div> 
+            <p id = "instructions">Click on the button below to see where is our next stop.</p>
+        </section> 
         
         <!-- Button -->
-        <div class="wrapper">
+        <div id="wrapper">
             <input type="button" class="button" onclick="myFunction()" value='Next stop...'>
         </div>
         
         <!-- Image -->
         <div id="nextStop">
-            <div class="images">
-                <image class="secondImage" img src="ImagesVTarnovo\archaeologicalMuseum.jpg" alt="Image" height="240" width="350"/>
-            </div>
 
+            <image class="secondImage" img src="ImagesVTarnovo\archaeologicalMuseum.jpg" alt="Image" height="240" width="350"/>
+            
             <!-- Image -->
-            <div class="paragraph">
+            <section class="paragraph">
                 <p>The Archaeological Museum is worth seeing while being in the city. It covers the region’s history from prehistoric times through the Middle Ages. The thousandyear-old history and culture of the region of Tarnovo is traced out there. The accent is on the period of the Second Bulgarian Kingdom.<br></p>
                 <p>And there are even more things to do in Sofia and places to see…Start again if you want to explore them</p>
-            </div> 
+            </section> 
 
             <!-- Button -->
-            <div class="wrapper">
+            <div id="wrapper">
                 <input type="button" class="button" onClick="startButton('storyPage.html')" value='START'>
             </div>
         </div>

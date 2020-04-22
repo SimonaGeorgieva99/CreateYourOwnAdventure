@@ -9,25 +9,27 @@
 
     <body>
         <!-- Navigation -->
-        <div class="topnav">
-            <a href="storyPage.html">Story page</a>
-            <a href="homePage.html">Home page</a>
-        </div>
+        <nav id="topnav">
+            <a href="storyPage.html" class="navigation">Story page</a>
+            <a href="homePage.html" class="navigation">Home page</a>
+        </nav>
 
         <!-- Headers -->
         <header class = "header">Sofia, Bulgaria<hr/></header>
 
-        <!-- Text and image -->
-        <div class="images">
-            <img src="ImagesSofia\SofiaBG.jpg" alt="Image" height="320" width="520"/>
+        <!-- Image -->
+        <div id="images">
+            <img src="ImagesSofia\SofiaBG.jpg" class="image" alt="Image" height="320" width="520"/>
         </div>
-        <div class="paragraph">
+
+        <!-- Text -->
+        <section class="paragraph">
             <p>Firstly, you arrive in Sofia which is the capital city of Bulgaria. It is located in the western part of the country and it is one of the biggest and most populated cities in the country. What would you like to see first?<br></p>
-            <p class = "instructions">Click on one of the buttons below to start your journey</p>
-        </div>
+            <p id = "instructions">Click on one of the buttons below to start your journey</p>
+        </section>
         
         <!-- Button -->
-        <div class="wrapper">
+        <div id="wrapper">
             <input type="button" class="button" onClick="startButton('cathedral.html')" value='Visit one of the most beautiful and stunning cathedrals'>
             <input type="button" class="button" onClick="startButton('cityCenter.html')" value='Go around the city center'>
         </div>

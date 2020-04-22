@@ -9,44 +9,41 @@
 
     <body>
         <!-- Navigation -->
-        <div class="topnav">
-            <a href="storyPage.html">Story page</a>
-            <a href="homePage.html">Home page</a>
-        </div>
+        <nav id="topnav">
+            <a href="storyPage.html" class="navigation">Story page</a>
+            <a href="homePage.html" class="navigation">Home page</a>
+        </nav>
 
         <!-- Headers -->
         <header class = "header">Samovodskata charshia – Old Town<hr/></header>
 
         <!-- Image -->
-        <div class="image">
-            <img src="ImagesVTarnovo\samovodskaCharshia.jpg" alt="Image" height="290" width="480"/>
-        </div>
-
+        <image class="image" img src="ImagesVTarnovo\samovodskaCharshia.jpg" alt="Image" height="290" width="480"/>
+        
         <!-- Text -->
-        <div class="paragraph">
+        <section class="paragraph">
             <p>The Old Town is the perfect place for having a walk, especially Samovodskata Charshia. During the second half of the 19th century, this was where artisans and farmers from the nearby village of Samovodene (village near Veliko Tarnovo) came on market days to sell their goods. In the 1980s the city renovated the area recreate the atmosphere of the early 20th century. Samovodskata Charshia still contains several restored Revival buildings (the Bulgarian National Revival period was a cultural movement by Bulgarians to recover their identity after the Ottomans). <br></p>
-            <p class = "instructions">Click on the button below to see where is our next stop.</p>
-        </div> 
+            <p id = "instructions">Click on the button below to see where is our next stop.</p>
+        </section> 
         
         <!-- Button -->
-        <div class="wrapper">
+        <div id="wrapper">
             <input type="button" class="button" onclick="myFunction()" value='Next stop...'>
         </div>
         
         <!-- Image -->
         <div id="nextStop">
-            <div class="images">
-                <image class="secondImage" img src="ImagesVTarnovo\holyFortyMartyrs.jpg" alt="Image" height="250" width="450"/>
-            </div>
-
+            
+            <image class="secondImage" img src="ImagesVTarnovo\holyFortyMartyrs.jpg" alt="Image" height="250" width="450"/>
+            
             <!-- Image -->
-            <div class="paragraph">
+            <section class="paragraph">
                 <p>The Holy Forty Martyrs Temple is one of the most emblematic medieval churches in Veliko Tarnovo. It is located at the foot of Tsarevets Fortress. It was built and its walls were painted in honour of the victory of Tsar Ivan Asen II. After the Liberation of Bulgaria in 1878 the temple converted back into a Christian church. Today the Holy Forty Martyrs Temple functions as a museum and is open for visitors, as holy liturgies are served in it on the biggest Christian holidays.<br></p>
                 <p>And there are even more things to do in Sofia and places to see…Start again if you want to explore them</p>
-            </div> 
+            </section> 
 
             <!-- Button -->
-            <div class="wrapper">
+            <div id="wrapper">
                 <input type="button" class="button" onClick="startButton('storyPage.html')" value='START'>
             </div>
         </div>
