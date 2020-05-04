@@ -3,11 +3,21 @@
     <head>
         <meta charset = "UTF-8"/>
         <link rel ="stylesheet" href ="css\homePage.css">
-        <script src="js/websiteFunctionality.js"></script>
+        <!-- <script src="js/websiteFunctionality.js"></script> -->
         <title>Home page</title>
     </head>
 
     <body>
+        <audio id="myAudio">
+            <source src="kabaGaida.mp3" type="audio/mpeg" loop="true">
+          </audio>
+          
+          <p>Click the buttons to play or pause the audio.</p>
+          
+          <input type="button" onclick="playAudio()" >Play Audio</button>
+
+          <script src="js/websiteFunctionality.js"></script>
+
         <!-- Navigation -->
         <nav class="topnav">
             <a href="storyPage.html">Story</a>
