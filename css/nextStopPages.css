@@ -14,7 +14,7 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
- 
+
 .secondImage {
     float:left;
     padding-left: 50px;
@@ -57,7 +57,7 @@ html {
     overflow: hidden;
     background-color: #f8e4e4;
 }
-  
+
 /* style of the content of the navigation bar*/
 .navigation {
     float: right;
@@ -73,4 +73,3 @@ html {
 #nextStop {
     display:none;
 }
-

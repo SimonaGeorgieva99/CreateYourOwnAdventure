@@ -14,7 +14,7 @@ html {
 .image {
   padding-right: 70px;
   display: inline-block;
-} 
+}
 
 .paragraph {
     font-size: 25px;
@@ -53,7 +53,7 @@ html {
     overflow: hidden;
     background-color: #f8e4e4;
 }
-  
+
 /* style of the content of the navigation bar*/
 .navigation {
     float: right;

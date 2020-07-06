@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(to bottom right, #f8e4e4, white);
+    background-image: linear-gradient(to bottom right, #f8e4e4, #fff);
 }
 
 .header {
@@ -32,7 +32,7 @@ img {
     letter-spacing: 6px;
 }
 .button {
-    background-image: linear-gradient(to bottom right, rebeccapurple, white);
+    background-image: linear-gradient(to bottom right, rebeccapurple, #fff);
     padding: 15px 32px;
     text-align: center;
     font-size: 25px;
@@ -52,7 +52,7 @@ img {
     overflow: hidden;
     background-color: #f8e4e4;
 }
-  
+
 /* style of the content of the navigation bar*/
 .topnav a {
     float: right;
