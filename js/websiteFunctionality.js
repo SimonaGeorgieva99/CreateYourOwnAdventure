@@ -13,14 +13,3 @@ function myFunction() {
       additionalText.style.display = "block";
     }
 }
-
-//add music
-var myMusic= document.getElementById("myAudio");
-
-function playAudio() {
-  myMusic.play();
-}
-
-// function pauseAudio() {
-//   myMusic.pause();
-// }
